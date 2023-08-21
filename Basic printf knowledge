@@ -1,0 +1,70 @@
+// basic printf first at C code
+#include <stdio.h>
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+
+
+// Print integar 
+#include <stdio.h>
+
+int main() {
+    int num = 42;
+    printf("The number is: %d\n", num);
+    return 0;
+}
+
+
+//Print floating number
+#include <stdio.h>
+
+int main() {
+    float pi = 3.14159;
+    printf("The value of pi is: %f\n", pi);
+    return 0;
+}
+
+
+//Print carracter
+#include <stdio.h>
+
+int main() {
+    char ch = 'A';
+    printf("The character is: %c\n", ch);
+    return 0;
+}
+
+
+//Print multiple values 
+#include <stdio.h>
+
+int main() {
+    int age = 25;
+    float height = 5.9;
+    printf("Age: %d, Height: %f\n", age, height);
+    return 0;
+}
+
+
+//Print different bases 
+#include <stdio.h>
+
+int main() {
+    int num = 42;
+    printf("Decimal: %d, Hexadecimal: %x, Octal: %o\n", num, num, num);
+    return 0;
+}
+
+
+//print pointers 
+#include <stdio.h>
+
+int main() {
+    int num = 42;
+    int *ptr = &num;
+    printf("Pointer address: %p\n", ptr);
+    return 0;
+}
+                                                                                   //just look the code and define the best soluton to use .
